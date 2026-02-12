@@ -1,0 +1,30 @@
+[
+    {
+    "id": 1,
+    "title": "Melody Factory",
+    "description": "Projet 1 : Mise en pratique des bases HTML, CSS et JS",
+    "image": "/images/Melody-factory.jpg",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/prescilliarosart/Melody-Factory",
+    "demo":"https://demo-portfolio.com"
+},
+
+{
+    "id": 2,
+    "title": "StrasFleurs",
+    "description": "Projet 2 : Application e-commerce complète avec panier, paiement et gestion des produits.",
+    "image": "/images/StrasFleurs.jpg",
+    "technologies": ["React", "Node.js"],
+    "github": "https://github.com/prescilliarosart/ecommerce"
+},
+
+  {
+    "id": 3,
+    "title": "Coffee Shop",
+    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
+    "image": "/projects/taskmanager.jpg",
+    "technologies": ["React", "Firebase", "Material-UI"],
+    "github": "https://github.com/prescilliarosart/taskmanager",
+    "demo": "https://demo-taskmanager.com"
+  }
+]

@@ -4,10 +4,12 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import { Footer } from "./components/Footer"
+import { ThemeProvider } from './contexts/ThemeContext';
 import "./App.css";
 
 function App() {
   return (
+    <ThemeProvider>
   
     <div className="bg-black min-h-screen">
       <NavBar />
@@ -17,7 +19,8 @@ function App() {
       <Contact />
       <Footer />
       </div>
-  )
+      </ThemeProvider>
+  );
 }
 
 export default App;

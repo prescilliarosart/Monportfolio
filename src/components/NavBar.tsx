@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTheme } from '../contexts/ThemeContext';
 
 interface NavLink {
   name: string;
@@ -6,7 +7,8 @@ interface NavLink {
 }
 
 function NavBar() {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
+  const { isDarkMode, toggleTheme } = useTheme();
+  console.log('isDarkMode', isDarkMode);
   const [activeSection, setActiveSection] = useState<string>('home');
   
   const navlinks: NavLink[] = [
@@ -37,7 +39,7 @@ function NavBar() {
     handleScroll(); // Appel initial
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [navlinks]);
+  }, []);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
@@ -68,7 +70,7 @@ function NavBar() {
           {/* Dark/Light Mode Toggle */}
           <div className="flex items-center space-x-4">
             <button 
-              onClick={() => setIsDarkMode(!isDarkMode)}
+              onClick={toggleTheme}
               className="p-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
               aria-label="Toggle theme"
             >

@@ -35,7 +35,7 @@ useEffect(() => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background avec dégradé */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900 dark:from-gray-100 dark:via-white dark:to-gray-100">
         {/* Effet de grille/points optionnel */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
       </div>
@@ -48,29 +48,29 @@ useEffect(() => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Texte */}
-          <div className="text-white space-y-6">
-            <p className="text-lg text-gray-400 flex items-center gap-2">
+          <div className="text-white dark:text-gray-600 space-y-6">
+            <p className="text-lg text-gray-400 dark:text-gray-500 flex items-center gap-2">
               <span className="inline-block">👋</span> Hi, I'm
             </p>
-            <h1 className="text-6xl md:text-6xl font-bold">
+            <h1 className="text-6xl md:text-6xl font-bold dark:text-black">
               Prescillia Rosart
             </h1>
-            <h2 className="text-3xl md:text-4xl text-gray-300">
+            <h2 className="text-3xl md:text-4xl text-gray-300 dark:text-gray-500">
               I am a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 inline-block min-w-[320px]">
                 {displayText}
                 <span className="animate-pulse">|</span>
               </span>
               </h2>
-            <p className="text-gray-400 text-lg max-w-xl">
+            <p className="text-gray-400 dark:text-gray-600 text-lg max-w-xl">
               We work with professionals and leaders who want to build careers that fulfil them intellectually, financially
             </p>
             
             {/* Réseaux sociaux */}
             <div className="flex gap-4 pt-4">
-              <a href="https://www.linkedin.com/in/prescillia-rosart/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/prescillia-rosart/" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 transition-colors">
                 <FaLinkedin/>
               </a>
-              <a href="https://github.com/prescilliarosart" target="_blank" rel="noreferrer">
+              <a href="https://github.com/prescilliarosart" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 transition-colors">
                 <FaGithub/>
               </a>
             </div>
@@ -91,7 +91,7 @@ useEffect(() => {
       </div>
 
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-6 h-6 text-white dark:text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </div>
