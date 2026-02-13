@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profileImage from '../assets/profile.jpg';
 
 function Hero() {
-  const fullText = 'Web Developer!';
+  const fullText = 'Développeuse Web!';
   const [displayText, setDisplayText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
 
@@ -35,7 +35,8 @@ useEffect(() => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background avec dégradé */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900 dark:from-gray-100 dark:via-white dark:to-gray-100">
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black
+dark:from-white dark:via-gray-50 dark:to-white">
         {/* Effet de grille/points optionnel */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
       </div>
@@ -50,13 +51,13 @@ useEffect(() => {
           {/* Texte */}
           <div className="text-white dark:text-gray-600 space-y-6">
             <p className="text-lg text-gray-400 dark:text-gray-500 flex items-center gap-2">
-              <span className="inline-block">👋</span> Hi, I'm
+              <span className="inline-block">👋</span> Salut, je suis
             </p>
             <h1 className="text-6xl md:text-6xl font-bold dark:text-black">
               Prescillia Rosart
             </h1>
             <h2 className="text-3xl md:text-4xl text-gray-300 dark:text-gray-500">
-              I am a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 inline-block min-w-[320px]">
+              Je suis <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 inline-block min-w-[320px]">
                 {displayText}
                 <span className="animate-pulse">|</span>
               </span>

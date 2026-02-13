@@ -3,7 +3,7 @@ import profileImage from '../assets/profile.jpg';
 
 export function Footer() {
   return (
-    <footer className="bg-[#0B1120] border-t border-white/10">
+    <footer className="bg-[#0B1120] dark:bg-gray-100 border-t border-white/10 dark:border-black/10">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col items-center text-center gap-6">
 
         {/* Photo */}
@@ -15,16 +15,16 @@ export function Footer() {
 
         {/* Nom + métier */}
         <div>
-          <h3 className="text-white font-semibold text-lg">
+          <h3 className="text-white dark:text-black font-semibold text-lg">
             Prescillia Rosart
           </h3>
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-400 dark:text-gray-600 text-sm">
             Développeuse web
           </p>
         </div>
 
         {/* Réseaux sociaux */}
-        <div className="flex gap-6 text-gray-400 text-xl">
+        <div className="flex gap-6 text-gray-400 dark:text-gray-600 text-xl">
           <a
             href="https://github.com/tonprofil"
             target="_blank"
@@ -45,7 +45,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className="text-gray-500 text-sm mt-4">
+        <p className="text-gray-500 dark:text-gray-700 text-sm mt-4">
           © {new Date().getFullYear()} Prescillia Rosart
         </p>
 

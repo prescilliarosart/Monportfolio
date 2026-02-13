@@ -12,9 +12,9 @@ function NavBar() {
   const [activeSection, setActiveSection] = useState<string>("home");
 
   const navlinks: NavLink[] = [
-    { name: "HOME", href: "#home" },
-    { name: "ABOUT", href: "#about" },
-    { name: "PROJECTS", href: "#projects" },
+    { name: "ACCUEIL", href: "#home" },
+    { name: "A PROPOS", href: "#about" },
+    { name: "PROJETS", href: "#projects" },
     { name: "CONTACT", href: "#contact" },
   ];
 

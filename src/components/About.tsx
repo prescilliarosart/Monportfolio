@@ -34,7 +34,8 @@ const softSkills: SoftSkill[] = [
 
 
   return (
-    <section id="about" className="relative min-h-screen bg-gradient-to-b from-gray-800 via-gray-700 to-black  dark:from-gray-400 dark:via-gray-300 dark:to-white py-20">
+    <section id="about" className="relative min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900
+dark:from-gray-50 dark:via-gray-100 dark:to-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -42,7 +43,7 @@ const softSkills: SoftSkill[] = [
             Get To Know More
           </p>
           <h2 className="text-5xl md:text-6xl font-bold text-white dark:text-black">
-            About Me
+            A propos de moi
           </h2>
         </div>
 
@@ -84,7 +85,7 @@ const softSkills: SoftSkill[] = [
         {/* Skills Section */}
 <div className="mt-20">
   <div className="text-center mb-12">
-    <h3 className="text-3xl font-bold text-white dark:text-black mb-2">My Skills</h3>
+    <h3 className="text-3xl font-bold text-white dark:text-black mb-2">Mes Compétences</h3>
     <p className="text-gray-400 dark:text-gray-600">What I bring to the table</p>
   </div>
 
