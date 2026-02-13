@@ -34,7 +34,7 @@ const softSkills: SoftSkill[] = [
 
 
   return (
-    <section id="about" className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black  dark:from-white dark:via-gray-100 dark:to-white py-20">
+    <section id="about" className="relative min-h-screen bg-gradient-to-b from-gray-800 via-gray-700 to-black  dark:from-gray-400 dark:via-gray-300 dark:to-white py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -50,13 +50,13 @@ const softSkills: SoftSkill[] = [
           {/* Image Section */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl opacity-20 group-hover:opacity-30 blur-2xl transition-opacity duration-500"></div>
-            <div className="relative w-full h-[500px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+            <div className="relative w-full h-[500px] rounded-3xl overflow-hidden border border-white/10 dark:border-black/10 shadow-2xl">
               <img 
                 src={profileImage} 
                 alt="About Prescillia" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 dark:from-white/60 via-transparent to-transparent"></div>
             </div>
           </div>
 
@@ -103,7 +103,7 @@ const softSkills: SoftSkill[] = [
           return (
             <div 
               key={index}
-              className="flex flex-col items-center gap-3 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group"
+              className="flex flex-col items-center gap-3 p-4 bg-white/5 dark:bg-black/5 rounded-xl hover:bg-white/10 dark:hover:bg-black/10 transition-all duration-300 group"
             >
               <Icon className="text-5xl text-purple-400 group-hover:scale-110 transition-transform duration-300" />
               <span className="text-white dark:text-black font-medium text-center">{skill.name}</span>
@@ -123,7 +123,7 @@ const softSkills: SoftSkill[] = [
         {softSkills.map((skill, index) => (
           <div 
             key={index}
-            className="flex items-center gap-3 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300"
+            className="flex items-center gap-3 p-4 bg-white/5 dark:bg-black/5 rounded-xl hover:bg-white/10 dark:hover:bg-black/10 transition-all duration-300"
           >
             <div className="w-2 h-2 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full"></div>
             <span className="text-white dark:text-black font-medium">{skill.name}</span>
