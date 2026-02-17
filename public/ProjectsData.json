@@ -15,7 +15,8 @@
     "description": "Projet 2 : Application e-commerce complète avec panier, paiement et gestion des produits.",
     "image": "/images/StrasFleurs.jpg",
     "technologies": ["React", "Node.js"],
-    "github": "https://github.com/prescilliarosart/ecommerce"
+    "github": "https://github.com/prescilliarosart/StrasFleurs.git",
+    "demo": "https://demo-strasfleurs.com"
 },
 
   {

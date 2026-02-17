@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider>
   
-    <div className="bg-black min-h-screen">
+    <div className="bg-white dark:bg-black min-h-screen">
       <NavBar />
       <Hero />
       <About />

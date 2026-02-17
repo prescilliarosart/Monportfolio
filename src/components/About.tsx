@@ -40,7 +40,7 @@ dark:from-gray-50 dark:via-gray-100 dark:to-gray-50 py-20">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-purple-400 text-sm font-semibold tracking-wider uppercase mb-2">
-            Get To Know More
+            Apprenez-en davantage
           </p>
           <h2 className="text-5xl md:text-6xl font-bold text-white dark:text-black">
             A propos de moi
@@ -64,19 +64,11 @@ dark:from-gray-50 dark:via-gray-100 dark:to-gray-50 py-20">
           {/* Text Section */}
           <div className="text-white dark:text-black space-y-6">
             <h3 className="text-3xl font-bold">
-              My Name Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Prescillia Rosart</span>
+              Je m'appelle <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Prescillia Rosart</span>
             </h3>
-            <h4 className="text-xl text-gray-300 dark:text-gray-500">
-              I Am Available For Web Development Projects
-            </h4>
             <p className="text-gray-400 dark:text-gray-600 text-lg leading-relaxed">
-              Passionate web developer with a keen eye for design and detail. I specialize in creating modern, 
-              responsive web applications that provide exceptional user experiences. Born in 2000, I've been 
-              coding and building projects that combine creativity with functionality.
-            </p>
-            <p className="text-gray-400 dark:text-gray-600 text-lg leading-relaxed">
-              I believe in continuous learning and staying up-to-date with the latest web technologies. 
-              My goal is to create digital experiences that not only look great but also solve real-world problems.
+              Après 4 ans comme référente d'établissements en CFA, où j'ai développé rigueur et sens de l'organisation, j'ai suivi une formation intensive en développement web à la Wild Code School. 
+              Aujourd'hui, je crée des interfaces modernes qui allient esthétique et performance.
             </p>
 
           </div>
@@ -86,7 +78,6 @@ dark:from-gray-50 dark:via-gray-100 dark:to-gray-50 py-20">
 <div className="mt-20">
   <div className="text-center mb-12">
     <h3 className="text-3xl font-bold text-white dark:text-black mb-2">Mes Compétences</h3>
-    <p className="text-gray-400 dark:text-gray-600">What I bring to the table</p>
   </div>
 
   {/* Two Columns Grid */}

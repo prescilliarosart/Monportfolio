@@ -63,15 +63,15 @@ dark:from-white dark:via-gray-50 dark:to-white">
               </span>
               </h2>
             <p className="text-gray-400 dark:text-gray-600 text-lg max-w-xl">
-              We work with professionals and leaders who want to build careers that fulfil them intellectually, financially
+              Phrase d'accroche à faire
             </p>
             
             {/* Réseaux sociaux */}
             <div className="flex gap-4 pt-4">
-              <a href="https://www.linkedin.com/in/prescillia-rosart/" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 transition-colors">
+              <a href="https://www.linkedin.com/in/prescillia-rosart/" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 dark:hover:text-purple-400 transition-colors">
                 <FaLinkedin/>
               </a>
-              <a href="https://github.com/prescilliarosart" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 transition-colors">
+              <a href="https://github.com/prescilliarosart" target="_blank" rel="noreferrer" className="text-white dark:text-black text-3xl hover:text-purple-400 dark:hover:text-purple-400 transition-colors">
                 <FaGithub/>
               </a>
             </div>
