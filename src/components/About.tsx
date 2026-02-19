@@ -1,4 +1,3 @@
-import profileImage from '../assets/profile.jpg';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss } from 'react-icons/si';
 
@@ -24,7 +23,7 @@ const techSkills: TechSkill[] = [
 ];
 
 const softSkills: SoftSkill[] = [
-  { name: 'Communication efficace' },
+  { name: 'Communication' },
   { name: 'Esprit d\'équipe' },
   { name: 'Autonomie' },
   { name: 'Créativité' },
@@ -47,26 +46,11 @@ dark:from-gray-50 dark:via-gray-100 dark:to-gray-50 py-20">
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
-          {/* Image Section */}
-          <div className="relative group">
-            <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl opacity-20 group-hover:opacity-30 blur-2xl transition-opacity duration-500"></div>
-            <div className="relative w-full h-[500px] rounded-3xl overflow-hidden border border-white/10 dark:border-black/10 shadow-2xl">
-              <img 
-                src={profileImage} 
-                alt="About Prescillia" 
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 dark:from-white/60 via-transparent to-transparent"></div>
-            </div>
-          </div>
-
+        <div className=" gap-12 items-start mb-16">
+          
           {/* Text Section */}
           <div className="text-white dark:text-black space-y-6">
-            <h3 className="text-3xl font-bold">
-              Je m'appelle <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Prescillia Rosart</span>
-            </h3>
-            <p className="text-gray-400 dark:text-gray-600 text-lg leading-relaxed">
+            <p className="text-gray-400 dark:text-gray-600 text-xl leading-relaxed text-center">
               Après 4 ans comme référente d'établissements en CFA, où j'ai développé rigueur et sens de l'organisation, j'ai suivi une formation intensive en développement web à la Wild Code School. 
               Aujourd'hui, je crée des interfaces modernes qui allient esthétique et performance.
             </p>

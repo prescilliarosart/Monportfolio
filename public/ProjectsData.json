@@ -6,17 +6,17 @@
     "image": "/images/Melody-factory.jpg",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/prescilliarosart/Melody-Factory",
-    "demo":"https://demo-portfolio.com"
+    "demo":"https://melody-factoryprojects1.vercel.app/"
 },
 
 {
     "id": 2,
     "title": "StrasFleurs",
-    "description": "Projet 2 : Application e-commerce complète avec panier, paiement et gestion des produits.",
+    "description": "Projet 2 : Mise en pratique de React, API et gestion du back-end",
     "image": "/images/StrasFleurs.jpg",
     "technologies": ["React", "Node.js"],
     "github": "https://github.com/prescilliarosart/StrasFleurs.git",
-    "demo": "https://demo-strasfleurs.com"
+    "demo": "https://strasfleursproject2.vercel.app/"
 },
 
   {
@@ -24,7 +24,27 @@
     "title": "Coffee Shop",
     "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
     "image": "/projects/taskmanager.jpg",
-    "technologies": ["React", "Firebase", "Material-UI"],
+    "technologies": ["React", "Node.js"],
+    "github": "https://github.com/prescilliarosart/taskmanager",
+    "demo": "https://demo-taskmanager.com"
+  },
+
+  {
+    "id": 3,
+    "title": "Project name",
+    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
+    "image": "/projects/taskmanager.jpg",
+    "technologies": ["React", "Node.js"],
+    "github": "https://github.com/prescilliarosart/taskmanager",
+    "demo": "https://demo-taskmanager.com"
+  },
+
+  {
+    "id": 3,
+    "title": "Project name",
+    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
+    "image": "/projects/taskmanager.jpg",
+    "technologies": ["React", "Node.js"],
     "github": "https://github.com/prescilliarosart/taskmanager",
     "demo": "https://demo-taskmanager.com"
   }
