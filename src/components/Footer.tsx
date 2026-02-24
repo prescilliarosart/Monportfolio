@@ -46,7 +46,7 @@ export function Footer() {
 
         {/* Copyright */}
         <p className="text-gray-500 dark:text-gray-700 text-sm mt-4">
-          © {new Date().getFullYear()} Prescillia Rosart
+          © {new Date().getFullYear()} Prescillia Rosart. Tous droits réservés.
         </p>
 
       </div>

@@ -77,10 +77,9 @@ dark:from-white dark:via-gray-50 dark:to-white">
             </div>
           </div>
 
-          {/* Image (optionnel) */}
+          {/* Image */}
           <div className="relative">
             <div className="w-[350px] h-[500px] overflow-hidden from-purple-600/20 to-blue-600/20 backdrop-blur-sm border border-white/10 flex items-center justify-center rounded-[120px_20px_160px_160px]">
-              {/* Vous pouvez mettre une image ici */}
               <img 
                 src={profileImage}
                 alt="Prescillia - Developer" 
@@ -91,11 +90,11 @@ dark:from-white dark:via-gray-50 dark:to-white">
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <a href="#about" className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <svg className="w-6 h-6 text-white dark:text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
-      </div>
+      </a>
     </section>
   );
 }

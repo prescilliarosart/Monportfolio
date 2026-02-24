@@ -14,7 +14,7 @@
     "title": "StrasFleurs",
     "description": "Projet 2 : Mise en pratique de React, API et gestion du back-end",
     "image": "/images/StrasFleurs.jpg",
-    "technologies": ["React", "Node.js"],
+    "technologies": ["HTML", "CSS", "tailwind", "React", "TypeScript", "Vite"],
     "github": "https://github.com/prescilliarosart/StrasFleurs.git",
     "demo": "https://strasfleursproject2.vercel.app/"
 },
