@@ -22,6 +22,14 @@ function NavBar() {
     const handleScroll = () => {
       const sections = navlinks.map((link) => link.href.substring(1));
 
+      const isBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 10;
+    
+    if (isBottom) {
+       // Si on est en bas, active la dernière section (contact)
+      setActiveSection('contact');
+      return;
+    }
+
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
