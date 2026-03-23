@@ -19,33 +19,23 @@
     "demo": "https://strasfleursproject2.vercel.app/"
 },
 
-  {
+{
     "id": 3,
-    "title": "Coffee Shop",
-    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
-    "image": "/projects/taskmanager.jpg",
-    "technologies": ["React", "Node.js"],
-    "github": "https://github.com/prescilliarosart/taskmanager",
-    "demo": "https://demo-taskmanager.com"
-  },
+    "title": "CoachBoard",
+    "description": "Projet 3 : Mise en pratique de React, API et gestion du back-end",
+    "image": "/images/CoachBoard.jpg",
+    "technologies": ["HTML", "CSS", "MUI", "React", "TypeScript", "Vite", "Node.js", "Express", "MySQL"],
+    "github": "https://github.com/prescilliarosart/CoachBoard.git",
+    "demo": "https://coachboardproject3.vercel.app/"
+},
 
-  {
-    "id": 3,
-    "title": "Project name",
-    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
-    "image": "/projects/taskmanager.jpg",
-    "technologies": ["React", "Node.js"],
-    "github": "https://github.com/prescilliarosart/taskmanager",
-    "demo": "https://demo-taskmanager.com"
-  },
-
-  {
-    "id": 3,
-    "title": "Project name",
-    "description": "Application de gestion de tâches avec drag & drop et collaboration en temps réel.",
-    "image": "/projects/taskmanager.jpg",
-    "technologies": ["React", "Node.js"],
-    "github": "https://github.com/prescilliarosart/taskmanager",
-    "demo": "https://demo-taskmanager.com"
-  }
+{
+    "id": 4,
+    "title": "Portfolio",
+    "description": "Mon portfolio personnel, conçu pour présenter mes compétences, mes projets et mon parcours professionnel.",
+    "image": "/images/Portfolio.jpg",
+    "technologies": ["HTML", "CSS", "tailwind", "React", "TypeScript", "Vite"],
+    "github": "https://github.com/prescilliarosart/Portfolio.git",
+    "demo": "https://portfolioproject4.vercel.app/"
+}
 ]

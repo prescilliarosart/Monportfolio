@@ -63,7 +63,7 @@ dark:from-white dark:via-gray-50 dark:to-white">
               </span>
               </h2>
             <p className="text-gray-400 dark:text-gray-600 text-lg max-w-xl">
-              Phrase d'accroche à faire
+              Passionnée par la construction d'applications solides et bien structurées. Après 4 ans à coordonner et anticiper les besoins dans un CFA, je mets cette rigueur pour développer des applications à la hauteur de vos ambitions.
             </p>
             
             {/* Réseaux sociaux */}
