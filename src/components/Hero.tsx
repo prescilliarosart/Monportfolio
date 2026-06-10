@@ -57,7 +57,7 @@ dark:from-white dark:via-gray-50 dark:to-white">
               Prescillia Rosart
             </h1>
             <h2 className="text-3xl md:text-4xl text-gray-300 dark:text-gray-500">
-              Je suis <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 inline-block min-w-[320px]">
+              Je suis <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 inline-block min-w-[160px] md:min-w-[320px]">
                 {displayText}
                 <span className="animate-pulse">|</span>
               </span>
@@ -78,11 +78,11 @@ dark:from-white dark:via-gray-50 dark:to-white">
           </div>
 
           {/* Image */}
-          <div className="relative">
-            <div className="w-[350px] h-[500px] overflow-hidden from-purple-600/20 to-blue-600/20 backdrop-blur-sm border border-white/10 flex items-center justify-center rounded-[120px_20px_160px_160px]">
-              <img 
+          <div className="relative flex justify-center">
+            <div className="w-[220px] h-[320px] sm:w-[280px] sm:h-[400px] md:w-[350px] md:h-[500px] overflow-hidden from-purple-600/20 to-blue-600/20 backdrop-blur-sm border border-white/10 flex items-center justify-center rounded-[120px_20px_160px_160px]">
+              <img
                 src={profileImage}
-                alt="Prescillia - Developer" 
+                alt="Prescillia - Developer"
                 className="w-full h-full object-cover"
               />
             </div>
