@@ -36,6 +36,6 @@
     "image": "/images/Portfolio.jpg",
     "technologies": ["HTML", "CSS", "tailwind", "React", "TypeScript", "Vite"],
     "github": "https://github.com/prescilliarosart/Portfolio.git",
-    "demo": "https://portfolioproject4.vercel.app/"
+    "demo": "https://monportfolio-prescillias-projects.vercel.app/"
 }
 ]
